@@ -1,0 +1,158 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
+
+.logo {
+  color: #2e2f42;
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: "1.17";
+  letter-spacing: "0.03em";
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+.logo-accent {
+  color: #4d5ae5;
+}
+
+.header-menu-link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: 0.02em;
+}
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #4d5ae5;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(50%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.hero {
+  background-color: #2e2f42;
+  text-align: center;
+  align-items: center;
+}
+.hero-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.hero-btn {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-family: Roboto;
+  width: 169px;
+  height: 56px;
+  top: 428px;
+  left: 636px;
+  padding-left: 32px;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: #4d5ae5;
+}
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+.adventages-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.adventages-items-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.product {
+}
+.product-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.product-img {
+}
+.ourteam {
+  background-color: #f4f4fd;
+}
+.ourteam-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.ourteam-subtitle {
+}
+
+.footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
+.footer-logo {
+  color: #f4f4fd;
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: "1.17";
+  letter-spacing: "0.03em";
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+}
+.btn-menu-portfolio {
+  background-color: #e7e9fc;
+  color: #4d5ae5;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+.btn-menu-portfolio:hover,
+.btn-menu-portfolio:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
