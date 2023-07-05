@@ -152,3 +152,10 @@ body {
   background-color: #404bbf;
   color: #ffffff;
 }
+
+.port-subtitle {
+  font-weight: 500;
+  font-style: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
