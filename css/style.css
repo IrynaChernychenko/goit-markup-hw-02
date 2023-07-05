@@ -7,7 +7,7 @@ body {
 .logo {
   color: #2e2f42;
   text-transform: uppercase;
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -19,7 +19,7 @@ body {
 }
 
 .list {
-  list-style-type: none;
+  list-style: none;
 }
 .logo-accent {
   color: #4d5ae5;
@@ -76,7 +76,7 @@ body {
 }
 
 .hero-btn:hover {
-  background-color: #4d5ae5;
+  background-color: #404bbf;
 }
 .hero-btn:focus {
   background-color: #404bbf;
@@ -136,9 +136,9 @@ body {
   letter-spacing: 0.02;
 }
 .btn-menu-portfolio {
-  background-color: #e7e9fc;
+  background-color: #f4f4fd;
   color: #4d5ae5;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
