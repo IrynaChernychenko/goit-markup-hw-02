@@ -1,3 +1,9 @@
+:root {
+  --logo-color: #4d5ae5;
+  --logo-accent-color: #2e2f42;
+  --hover-color: #404bbf;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -22,19 +28,21 @@ body {
   list-style: none;
 }
 .logo-accent {
-  color: #4d5ae5;
+  color: var(--logo-accent-color);
 }
-
+.header-socials {
+  font-style: normal;
+}
 .header-menu-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.12;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: #4d5ae5;
+  color: var(--hover-color);
 }
 
 .visually-hidden {
@@ -76,10 +84,10 @@ body {
 }
 
 .hero-btn:hover {
-  background-color: #404bbf;
+  background-color: var(--hover-color);
 }
 .hero-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--hover-color);
 }
 .adventages-subtitle {
   font-size: 20px;
