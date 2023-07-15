@@ -111,6 +111,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--logo-accent-color);
+  text-align: center;
 }
 
 .ourteam {
