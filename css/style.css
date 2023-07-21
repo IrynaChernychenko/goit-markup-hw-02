@@ -34,6 +34,14 @@ body {
 .header-socials {
   font-style: normal;
 }
+
+.header-socials-link {
+  color: var(--logo-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 .header-menu-link {
   color: var(--logo-accent-color);
   font-size: 16px;
@@ -43,7 +51,7 @@ body {
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: #404bbf;
+  color: var(--hover-color);
 }
 
 .visually-hidden {
@@ -123,8 +131,19 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: var(--logo-color);
 }
-
+.ourteam-subtitle {
+  color: var(--logo-accent-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.picture-ourteam {
+  background-color: #ffffff;
+}
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
@@ -141,7 +160,7 @@ body {
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 .btn-menu-portfolio {
   background-color: #f4f4fd;
