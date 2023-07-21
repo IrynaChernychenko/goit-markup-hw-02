@@ -50,13 +50,18 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.header-menu-link:focus {
-  color: #404bbf;
-}
 .header-menu-link:hover {
   color: #404bbf;
 }
-
+.header-menu-link:focus {
+  color: #404bbf;
+}
+.header-socials-link:hover {
+  color: #404bbf;
+}
+.header-socials-link:focus {
+  color: #404bbf;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
