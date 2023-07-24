@@ -76,8 +76,8 @@ body {
   letter-spacing: 0.02em;
 }
 .hero-btn {
-  background-color: var(--footer-color);
-  color: var(--logo-color);
+  background-color: #4d5ae5;
+  color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
