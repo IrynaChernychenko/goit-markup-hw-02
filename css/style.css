@@ -135,7 +135,9 @@ body {
   color: var(--logo-accent-color);
   text-align: center;
 }
-
+.product-img {
+  background-color: #ffffff;
+}
 .ourteam {
   background-color: #f4f4fd;
 }
