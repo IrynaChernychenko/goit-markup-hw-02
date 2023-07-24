@@ -75,6 +75,17 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
+.hero-btn-main {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  cursor: pointer;
+}
 .hero-btn {
   background-color: var(--footer-color);
   color: var(--logo-color);
@@ -87,11 +98,19 @@ body {
   cursor: pointer;
 }
 
+.hero-btn-main:hover {
+  background-color: var(--hover-color);
+}
+.hero-btn-main:focus {
+  background-color: var(--hover-color);
+}
 .hero-btn:hover {
   background-color: var(--hover-color);
+  color: #ffffff;
 }
 .hero-btn:focus {
   background-color: var(--hover-color);
+  color: #ffffff;
 }
 .adventages-subtitle {
   font-size: 20px;
