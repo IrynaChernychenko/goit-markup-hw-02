@@ -76,8 +76,8 @@ body {
   letter-spacing: 0.02em;
 }
 .hero-btn {
-  background-color: #4d5ae5;
-  color: #ffffff;
+  background-color: var(--footer-color);
+  color: var(--logo-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -182,8 +182,14 @@ body {
 
 .port-subtitle {
   font-weight: 500;
-  font-style: 20px;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--logo-accent-color);
+}
+.port-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-main-text);
 }
